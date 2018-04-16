@@ -233,7 +233,7 @@ namespace Sphere_Gobbler {
         private void SetInitialMovement() {
             // set a random initial movement direction
             // movement can be a combination of:
-            // up right, up left, down right, down left
+            // up right, up left, down right, down left or standard 4 directions
             // at varying ints up to the speed value
 
             this.randomNum = new Random(Environment.TickCount);
